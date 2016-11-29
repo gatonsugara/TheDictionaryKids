@@ -1,16 +1,16 @@
 package id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary.model;
 
-import android.graphics.drawable.Drawable;
+import java.io.Serializable;
 
 /**
  * Created by gagaton on 26/11/2016.
  */
 
-public class TD {
+public class TD implements Serializable {
     public String menujudul;
-    public Drawable menufoto;
+    public String menufoto;
 
-    public TD(String menujudul, Drawable menufoto) {
+    public TD(String menujudul, String menufoto) {
         this.menujudul = menujudul;
         this.menufoto = menufoto;
     }

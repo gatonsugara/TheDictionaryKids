@@ -1,8 +1,9 @@
 package id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary;
 
+import android.content.ContentResolver;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -19,10 +20,12 @@ import java.util.ArrayList;
 import id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary.adapter.TDAdapter;
 import id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary.model.TD;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements TDAdapter.ITDAdapter {
 
+    public static final String TD = "Td";
     ArrayList<TD> mList = new ArrayList<>();
     TDAdapter mAdapter;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,9 +46,8 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerView);
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
-        mAdapter = new TDAdapter(mList);
+        mAdapter = new TDAdapter(this, mList);
         recyclerView.setAdapter(mAdapter);
-
         fillData();
     }
 
@@ -53,9 +55,13 @@ public class MainActivity extends AppCompatActivity {
         Resources resources = getResources();
         String[] arJudul = resources.getStringArray(R.array.menu);
         TypedArray a = resources.obtainTypedArray(R.array.menu_picture);
-        Drawable[] arFoto = new Drawable[a.length()];
+        String[] arFoto = new String[a.length()];
         for (int i = 0; i < arFoto.length; i++) {
-            arFoto[i] = a.getDrawable(i);
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + "/"
+                    + resources.getResourceEntryName(id);
         }
         a.recycle();
 
@@ -85,5 +91,12 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void doClick(int pos) {
+        Intent i = new Intent(this, IsiKategori.class);
+        i.putExtra(TD, mList.get(pos));
+        startActivity(i);
     }
 }
