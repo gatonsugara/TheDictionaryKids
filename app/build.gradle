@@ -3,6 +3,18 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
+
+    packagingOptions
+            {
+                exclude 'META-INF/DEPENDENCIES'
+                exclude 'META-INF/NOTICE'
+                exclude 'META-INF/LICENSE'
+                exclude 'META-INF/LICENSE.txt'
+                exclude 'META-INF/NOTICE.txt'
+                exclude 'META-INF/ASL2.0'
+
+            }
+
     defaultConfig {
         applicationId "id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary"
         minSdkVersion 16
