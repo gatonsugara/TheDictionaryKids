@@ -15,6 +15,7 @@ public class IsiKategori extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
+
         TD td = (TD) getIntent().getSerializableExtra(MainActivity.TD);
         setTitle(td.menujudul);
 
