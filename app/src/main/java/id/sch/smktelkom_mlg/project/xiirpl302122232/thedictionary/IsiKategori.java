@@ -98,6 +98,7 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
 
     @Override
     public void doClick(int pos) {
+        mItem.get(pos).mp.start();
 
     }
 }
