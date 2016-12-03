@@ -1,6 +1,9 @@
 package id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary;
 
+import android.content.ContentResolver;
 import android.content.res.Resources;
+import android.content.res.TypedArray;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.GridLayoutManager;
@@ -21,13 +24,16 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
     ItemAdapter mAdapter;
     ArrayList<Item> mItem = new ArrayList<>();
 
+    public static int getId(String resourceName, Class<?> c) {
+
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_isi_kategori);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
 
         TD td = (TD) getIntent().getSerializableExtra(MainActivity.TD);
         setTitle(td.menujudul);
@@ -36,7 +42,6 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         recyclerView.setLayoutManager(layoutManager);
         mAdapter = new ItemAdapter(this, mItem);
         recyclerView.setAdapter(mAdapter);
-
 
         Resources resources = getResources();
         String[] categories = getResources().getStringArray(R.array.menu);
@@ -51,6 +56,28 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
                 onBackPressed();
             }
         });
+    }
+
+    private void fillData(String cat, String catFoto, String catSound) {
+        Resources resources = getResources();
+        String[] arJudul = resources.getStringArray(getId(cat, R.array.class));
+        TypedArray a = resources.obtainTypedArray(getId(catFoto, R.array.class));
+        MediaPlayer mp = new MediaPlayer();
+        String[] arSong = resources.getStringArray(getId(catSound, R.array.class));
+
+        String[] arFoto = new String[a.length()];
+        for (int i = 0; i < arFoto.length; i++) {
+            int id = a.getResourceId(i, 0);
+            arFoto[i] = ContentResolver.SCHEME_ANDROID_RESOURCE + "://"
+                    + resources.getResourcePackageName(id) + '/'
+                    + resources.getResourceTypeName(id) + "/"
+                    + resources.getResourceEntryName(id);
+        }
+        a.recycle();
+        for (int i = 0; i < arJudul.length; i++) {
+            mItem.add(new Item(arJudul[i], arFoto[i], arSong[i], this));
+        }
+        mAdapter.notifyDataSetChanged();
     }
 
     @Override
