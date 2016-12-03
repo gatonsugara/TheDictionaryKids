@@ -21,6 +21,51 @@
         <item>Transportation</item>
     </string-array>
 
+
+    <string-array name="transportation_name">
+        <item>Airplane</item>
+        <item>Ambulance</item>
+        <item>Bike</item>
+        <item>Boat</item>
+        <item>Bus</item>
+        <item>Helicopter</item>
+        <item>Jeep</item>
+        <item>Motorcycle</item>
+        <item>Taxi</item>
+        <item>Train</item>
+        <item>Truck</item>
+        <item>Van</item>
+    </string-array>
+
+    <array name="transportation_picture">
+        <item>@drawable/airplane</item>
+        <item>@drawable/ambulance</item>
+        <item>@drawable/bike</item>
+        <item>@drawable/boat</item>
+        <item>@drawable/bus</item>
+        <item>@drawable/helicopter</item>
+        <item>@drawable/jeep</item>
+        <item>@drawable/motorcycle</item>
+        <item>@drawable/taxi</item>
+        <item>@drawable/train</item>
+        <item>@drawable/transportations</item>
+        <item>@drawable/van</item>
+    </array>
+
+    <string-array name="transportation_song">
+        <item>airplane</item>
+        <item>ambulance</item>
+        <item>bike</item>
+        <item>boat</item>
+        <item>bus</item>
+        <item>helicopter</item>
+        <item>jeep</item>
+        <item>motorcycle</item>
+        <item>taxi</item>
+        <item>train</item>
+        <item>transportation</item>
+        <item>van</item>
+    </string-array>
     <array name="menu_picture">
         <item>@drawable/animals</item>
         <item>@drawable/fruits</item>
