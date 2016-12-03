@@ -13,6 +13,7 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 
 import id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary.adapter.ItemAdapter;
@@ -25,7 +26,13 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
     ArrayList<Item> mItem = new ArrayList<>();
 
     public static int getId(String resourceName, Class<?> c) {
-
+        try {
+            Field idField = c.getDeclaredField(resourceName);
+            return idField.getInt(idField);
+        } catch (Exception e) {
+            throw new RuntimeException("No resource ID found for :"
+                    + resourceName + " / " + c, e);
+        }
     }
 
     @Override
