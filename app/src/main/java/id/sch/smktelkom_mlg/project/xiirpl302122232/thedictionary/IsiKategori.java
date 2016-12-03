@@ -43,6 +43,7 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         TextView tv = (TextView) findViewById(R.id.textItem);
         ImageView ib = (ImageView) findViewById(R.id.imageItem);
 
+
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
