@@ -28,7 +28,6 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-
         TD td = (TD) getIntent().getSerializableExtra(MainActivity.TD);
         setTitle(td.menujudul);
         RecyclerView recyclerView = (RecyclerView) findViewById(R.id.recyclerViewItem);
@@ -37,11 +36,11 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         mAdapter = new ItemAdapter(this, mItem);
         recyclerView.setAdapter(mAdapter);
 
-
         Resources resources = getResources();
         String[] categories = getResources().getStringArray(R.array.menu);
         TextView tv = (TextView) findViewById(R.id.textItem);
         ImageView ib = (ImageView) findViewById(R.id.imageItem);
+
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
