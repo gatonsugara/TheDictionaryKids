@@ -21,6 +21,46 @@
         <item>Transportation</item>
     </string-array>
 
+    <string-array name="fruit_name">
+        <item>Apple</item>
+        <item>Avocado</item>
+        <item>Banana</item>
+        <item>Lychee</item>
+        <item>Grape</item>
+        <item>Strawberry</item>
+        <item>Watermelon</item>
+        <item>Kiwi Fruit</item>
+        <item>Pineapple</item>
+        <item>Papaya</item>
+    </string-array>
+
+    <array name="fruit_picture">
+        <item>@drawable/apple</item>
+        <item>@drawable/avocado</item>
+        <item>@drawable/banana</item>
+        <item>@drawable/lychee</item>
+        <item>@drawable/grape</item>
+        <item>@drawable/strawberry</item>
+        <item>@drawable/watermelon</item>
+        <item>@drawable/kiwi_fruit</item>
+        <item>@drawable/pineapple</item>
+        <item>@drawable/papaya</item>
+
+    </array>
+
+    <string-array name="fruit_song">
+        <item>apple</item>
+        <item>avocado</item>
+        <item>banana</item>
+        <item>lychee</item>
+        <item>grape</item>
+        <item>strawberry</item>
+        <item>watermelon</item>
+        <item>kiwi_fruit</item>
+        <item>pineapple</item>
+        <item>papaya</item>
+    </string-array>
+
     <string-array name="profession_name">
         <item>Architect</item>
         <item>Chef</item>
@@ -59,7 +99,6 @@
         <item>teacher</item>
         <item>waiter</item>
     </string-array>
-
     <string-array name="transportation_name">
         <item>Airplane</item>
         <item>Ambulance</item>
