@@ -61,6 +61,8 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         if (td.menujudul.equals(categories[0])) {
         } else if (td.menujudul.equals(categories[1])) {
         } else if (td.menujudul.equals(categories[2])) {
+            fillData("profession_name", "profession_picture", "profession_song");
+
         } else if (td.menujudul.equals(categories[3])) {
             fillData("transportation_name", "transportation_picture", "transportation_song");
         }

@@ -21,6 +21,44 @@
         <item>Transportation</item>
     </string-array>
 
+    <string-array name="profession_name">
+        <item>Architect</item>
+        <item>Chef</item>
+        <item>Doctor</item>
+        <item>Farmer</item>
+        <item>Firefighters</item>
+        <item>Priest</item>
+        <item>Pilot</item>
+        <item>Police</item>
+        <item>Teacher</item>
+        <item>Waiters</item>
+    </string-array>
+
+    <array name="profession_picture">
+        <item>@drawable/arsitek</item>
+        <item>@drawable/chef</item>
+        <item>@drawable/doctor</item>
+        <item>@drawable/farmer</item>
+        <item>@drawable/pemadam</item>
+        <item>@drawable/pendeta</item>
+        <item>@drawable/pilot</item>
+        <item>@drawable/police</item>
+        <item>@drawable/teacher</item>
+        <item>@drawable/waiters</item>
+    </array>
+
+    <string-array name="profession_song">
+        <item>arsitek</item>
+        <item>chef</item>
+        <item>doctor</item>
+        <item>farmer</item>
+        <item>pemadam</item>
+        <item>pendeta</item>
+        <item>pilot</item>
+        <item>police</item>
+        <item>teacher</item>
+        <item>waiter</item>
+    </string-array>
 
     <string-array name="transportation_name">
         <item>Airplane</item>
