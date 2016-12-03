@@ -19,7 +19,8 @@
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:scaleType="fitCenter"
-            tools:src="" />
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/airplane" />
 
         <TextView
             android:id="@+id/textItem"

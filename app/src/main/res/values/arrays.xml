@@ -33,8 +33,6 @@
         <item>Motorcycle</item>
         <item>Taxi</item>
         <item>Train</item>
-        <item>Truck</item>
-        <item>Van</item>
     </string-array>
 
     <array name="transportation_picture">
@@ -48,8 +46,6 @@
         <item>@drawable/motorcycle</item>
         <item>@drawable/taxi</item>
         <item>@drawable/train</item>
-        <item>@drawable/transportations</item>
-        <item>@drawable/van</item>
     </array>
 
     <string-array name="transportation_song">
@@ -63,8 +59,6 @@
         <item>motorcycle</item>
         <item>taxi</item>
         <item>train</item>
-        <item>transportation</item>
-        <item>van</item>
     </string-array>
 
     <string-array name="animals_name">

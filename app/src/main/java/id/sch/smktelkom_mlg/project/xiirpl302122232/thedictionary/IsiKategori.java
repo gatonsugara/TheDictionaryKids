@@ -23,7 +23,7 @@ import id.sch.smktelkom_mlg.project.xiirpl302122232.thedictionary.model.TD;
 public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAdapterI {
 
     ItemAdapter mAdapter;
-    ArrayList<Item> mItem = new ArrayList<>();
+    ArrayList<Item> mItem = new ArrayList<>(30);
 
     public static int getId(String resourceName, Class<?> c) {
         try {
