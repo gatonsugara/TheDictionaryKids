@@ -55,6 +55,15 @@ public class IsiKategori extends AppCompatActivity implements ItemAdapter.ItemAd
         TextView tv = (TextView) findViewById(R.id.textItem);
         ImageView ib = (ImageView) findViewById(R.id.imageItem);
 
+        String data[] = null;
+        String foto[] = null;
+
+        if (td.menujudul.equals(categories[0])) {
+        } else if (td.menujudul.equals(categories[1])) {
+        } else if (td.menujudul.equals(categories[2])) {
+        } else if (td.menujudul.equals(categories[3])) {
+            fillData("transportation_name", "transportation_picture", "transportation_song");
+        }
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
