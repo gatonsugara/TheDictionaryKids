@@ -66,6 +66,44 @@
         <item>transportation</item>
         <item>van</item>
     </string-array>
+    <string-array name="fruit_name">
+        <item>Apple</item>
+        <item>Lychee</item>
+        <item>Grape</item>
+        <item>Orange</item>
+        <item>Papaya</item>
+        <item>Banana</item>
+        <item>Strawberry</item>
+        <item>Pineapple</item>
+        <item>Watermelon</item>
+        <item>Kiwi Fruit</item>
+    </string-array>
+
+    <array name="fruit_picture">
+        <item>@drawable/apple</item>
+        <item>@drawable/lychee</item>
+        <item>@drawable/grape</item>
+        <item>@drawable/orange</item>
+        <item>@drawable/papaya</item>
+        <item>@drawable/banana</item>
+        <item>@drawable/strawberry</item>
+        <item>@drawable/pineapple</item>
+        <item>@drawable/watermelon</item>
+        <item>@drawable/kiwi_fruit</item>
+    </array>
+
+    <string-array name="fruit_song">
+        <item>apple</item>
+        <item>lychee</item>
+        <item>grape</item>
+        <item>orange</item>
+        <item>papaya</item>
+        <item>banana</item>
+        <item>strawberry</item>
+        <item>pineapple</item>
+        <item>watermelon</item>
+        <item>kiwi_fruit</item>
+    </string-array>
     <array name="menu_picture">
         <item>@drawable/animals</item>
         <item>@drawable/fruits</item>
