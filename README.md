@@ -1,10 +1,8 @@
 # TheDictionaryKids
 
 # Deskripsi
-
-*********************************
    Aplikasi ini merupakan sebuah aplikasi kamus Bahasa Inggris anak-anak. Yang di targetkan untuk anak-anak TK-SD. Dalam aplikasi ini juga memberikan tampilan menarik yang disukai oleh anak-anak. Tidak hanya itu anak-anak yang membaca kamus ini juga di mudahkan dengan adanya sound ketika anak menekan gambar kamus yang mereka ingin. 
-#Identitas Anggota
+# Identitas Anggota
 * NAMA        : AGATON KAHFI SUGARA
 * KELAS       : XII RPL 3
 * NO_ABSEN    : 02
