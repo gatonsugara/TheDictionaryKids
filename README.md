@@ -13,8 +13,11 @@
 ![ss6](https://cloud.githubusercontent.com/assets/22188705/20866631/0834ab66-ba64-11e6-9e53-6646f65ec59f.PNG)
 ![ss7](https://cloud.githubusercontent.com/assets/22188705/20866632/085b55ea-ba64-11e6-8524-dc77ee8db9c3.PNG)
 ![ss8](https://cloud.githubusercontent.com/assets/22188705/20866633/086726ae-ba64-11e6-97a6-4298f095e3f1.PNG)
+![ss9](https://cloud.githubusercontent.com/assets/22188705/20954752/9f33fe96-bc70-11e6-853f-88c9e056dc24.PNG)
+
 
 # Link APK
+   [Aplikasi Hello Dictionary](https://drive.google.com/open?id=0BzFbIKwEKFIhMWJkdzRQM2dNd3c)
 # Video
 
 # Identitas Anggota
