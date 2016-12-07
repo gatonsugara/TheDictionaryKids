@@ -34,33 +34,6 @@
         <item>Pig</item>
     </string-array>
 
-    <array name="animals_picture">
-        <item>@drawable/buffalo</item>
-        <item>@drawable/camel</item>
-        <item>@drawable/cat</item>
-        <item>@drawable/cow</item>
-        <item>@drawable/dog</item>
-        <item>@drawable/hippopotamus</item>
-        <item>@drawable/lion</item>
-        <item>@drawable/monkey</item>
-        <item>@drawable/mouse</item>
-        <item>@drawable/pig</item>
-
-    </array>
-
-    <string-array name="animals_song">
-        <item>buffalo</item>
-        <item>camel</item>
-        <item>cat</item>
-        <item>cow</item>
-        <item>dog</item>
-        <item>hippopotamus</item>
-        <item>lion</item>
-        <item>monkey</item>
-        <item>mouse</item>
-        <item>pig</item>
-    </string-array>
-
     <string-array name="fruit_name">
         <item>Apple</item>
         <item>Avocado</item>
@@ -72,33 +45,6 @@
         <item>Kiwi Fruit</item>
         <item>Pineapple</item>
         <item>Papaya</item>
-    </string-array>
-
-    <array name="fruit_picture">
-        <item>@drawable/apple</item>
-        <item>@drawable/avocado</item>
-        <item>@drawable/banana</item>
-        <item>@drawable/lychee</item>
-        <item>@drawable/grape</item>
-        <item>@drawable/strawberry</item>
-        <item>@drawable/watermelon</item>
-        <item>@drawable/kiwi_fruit</item>
-        <item>@drawable/pineapple</item>
-        <item>@drawable/papaya</item>
-
-    </array>
-
-    <string-array name="fruit_song">
-        <item>apple</item>
-        <item>avocado</item>
-        <item>banana</item>
-        <item>lychee</item>
-        <item>grape</item>
-        <item>strawberry</item>
-        <item>watermelon</item>
-        <item>kiwi_fruit</item>
-        <item>pineapple</item>
-        <item>papaya</item>
     </string-array>
 
     <string-array name="profession_name">
@@ -114,6 +60,45 @@
         <item>Waiters</item>
     </string-array>
 
+    <string-array name="transportation_name">
+        <item>Airplane</item>
+        <item>Ambulance</item>
+        <item>Bike</item>
+        <item>Boat</item>
+        <item>Bus</item>
+        <item>Helicopter</item>
+        <item>Jeep</item>
+        <item>Motorcycle</item>
+        <item>Taxi</item>
+        <item>Train</item>
+    </string-array>
+
+    <array name="animals_picture">
+        <item>@drawable/buffalo</item>
+        <item>@drawable/camel</item>
+        <item>@drawable/cat</item>
+        <item>@drawable/cow</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/hippopotamus</item>
+        <item>@drawable/lion</item>
+        <item>@drawable/monkey</item>
+        <item>@drawable/mouse</item>
+        <item>@drawable/pig</item>
+    </array>
+
+    <array name="fruit_picture">
+        <item>@drawable/apple</item>
+        <item>@drawable/avocado</item>
+        <item>@drawable/banana</item>
+        <item>@drawable/lychee</item>
+        <item>@drawable/grape</item>
+        <item>@drawable/strawberry</item>
+        <item>@drawable/watermelon</item>
+        <item>@drawable/kiwi_fruit</item>
+        <item>@drawable/pineapple</item>
+        <item>@drawable/papaya</item>
+    </array>
+
     <array name="profession_picture">
         <item>@drawable/arsitek</item>
         <item>@drawable/chef</item>
@@ -127,6 +112,45 @@
         <item>@drawable/waiters</item>
     </array>
 
+    <array name="transportation_picture">
+        <item>@drawable/airplane</item>
+        <item>@drawable/ambulance</item>
+        <item>@drawable/bike</item>
+        <item>@drawable/boat</item>
+        <item>@drawable/bus</item>
+        <item>@drawable/helicopter</item>
+        <item>@drawable/jeep</item>
+        <item>@drawable/motorcycle</item>
+        <item>@drawable/taxi</item>
+        <item>@drawable/train</item>
+    </array>
+
+    <string-array name="animals_song">
+        <item>buffalo</item>
+        <item>camel</item>
+        <item>cat</item>
+        <item>cow</item>
+        <item>dog</item>
+        <item>hippopotamus</item>
+        <item>lion</item>
+        <item>monkey</item>
+        <item>mouse</item>
+        <item>pig</item>
+    </string-array>
+
+    <string-array name="fruit_song">
+        <item>apple</item>
+        <item>avocado</item>
+        <item>banana</item>
+        <item>lychee</item>
+        <item>grape</item>
+        <item>strawberry</item>
+        <item>watermelon</item>
+        <item>kiwi_fruit</item>
+        <item>pineapple</item>
+        <item>papaya</item>
+    </string-array>
+
     <string-array name="profession_song">
         <item>arsitek</item>
         <item>chef</item>
@@ -139,35 +163,6 @@
         <item>teacher</item>
         <item>waiter</item>
     </string-array>
-    <string-array name="transportation_name">
-        <item>Airplane</item>
-        <item>Ambulance</item>
-        <item>Bike</item>
-        <item>Boat</item>
-        <item>Bus</item>
-        <item>Helicopter</item>
-        <item>Jeep</item>
-        <item>Motorcycle</item>
-        <item>Taxi</item>
-        <item>Train</item>
-        <item>Truck</item>
-        <item>Van</item>
-    </string-array>
-
-    <array name="transportation_picture">
-        <item>@drawable/airplane</item>
-        <item>@drawable/ambulance</item>
-        <item>@drawable/bike</item>
-        <item>@drawable/boat</item>
-        <item>@drawable/bus</item>
-        <item>@drawable/helicopter</item>
-        <item>@drawable/jeep</item>
-        <item>@drawable/motorcycle</item>
-        <item>@drawable/taxi</item>
-        <item>@drawable/train</item>
-        <item>@drawable/transportations</item>
-        <item>@drawable/van</item>
-    </array>
 
     <string-array name="transportation_song">
         <item>airplane</item>
@@ -180,9 +175,8 @@
         <item>motorcycle</item>
         <item>taxi</item>
         <item>train</item>
-        <item>transportation</item>
-        <item>van</item>
     </string-array>
+
     <array name="menu_picture">
         <item>@drawable/animals</item>
         <item>@drawable/fruits</item>
