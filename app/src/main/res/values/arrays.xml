@@ -21,6 +21,46 @@
         <item>Transportation</item>
     </string-array>
 
+    <string-array name="animals_name">
+        <item>Buffalo</item>
+        <item>Camel</item>
+        <item>Cat</item>
+        <item>Cow</item>
+        <item>Dog</item>
+        <item>Hippopotamus</item>
+        <item>Lion</item>
+        <item>Monkey</item>
+        <item>Mouse</item>
+        <item>Pig</item>
+    </string-array>
+
+    <array name="animals_picture">
+        <item>@drawable/buffalo</item>
+        <item>@drawable/camel</item>
+        <item>@drawable/cat</item>
+        <item>@drawable/cow</item>
+        <item>@drawable/dog</item>
+        <item>@drawable/hippopotamus</item>
+        <item>@drawable/lion</item>
+        <item>@drawable/monkey</item>
+        <item>@drawable/mouse</item>
+        <item>@drawable/pig</item>
+
+    </array>
+
+    <string-array name="animals_song">
+        <item>buffalo</item>
+        <item>camel</item>
+        <item>cat</item>
+        <item>cow</item>
+        <item>dog</item>
+        <item>hippopotamus</item>
+        <item>lion</item>
+        <item>monkey</item>
+        <item>mouse</item>
+        <item>pig</item>
+    </string-array>
+
     <string-array name="fruit_name">
         <item>Apple</item>
         <item>Avocado</item>
