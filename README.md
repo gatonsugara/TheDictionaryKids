@@ -5,15 +5,15 @@
 
 *********************************
 # Gambar Aplikasi
-![ss1](https://cloud.githubusercontent.com/assets/22188705/20866628/082d0122-ba64-11e6-92e2-81dd586e97c1.PNG)
-![ss2](https://cloud.githubusercontent.com/assets/22188705/20866627/0822ee94-ba64-11e6-95e7-3131418e9fc4.PNG)
-![ss3](https://cloud.githubusercontent.com/assets/22188705/20866629/08317284-ba64-11e6-9c36-276b3662b8a0.PNG)
-![ss4](https://cloud.githubusercontent.com/assets/22188705/20866630/08344950-ba64-11e6-99b1-30cc5c8c35ae.PNG)
-![ss5](https://cloud.githubusercontent.com/assets/22188705/20866634/08d5e8aa-ba64-11e6-8961-817e11fd5c7a.PNG)
-![ss6](https://cloud.githubusercontent.com/assets/22188705/20866631/0834ab66-ba64-11e6-9e53-6646f65ec59f.PNG)
-![ss7](https://cloud.githubusercontent.com/assets/22188705/20866632/085b55ea-ba64-11e6-8524-dc77ee8db9c3.PNG)
-![ss8](https://cloud.githubusercontent.com/assets/22188705/20866633/086726ae-ba64-11e6-97a6-4298f095e3f1.PNG)
-![ss9](https://cloud.githubusercontent.com/assets/22188705/20954752/9f33fe96-bc70-11e6-853f-88c9e056dc24.PNG)
+![screenshot_2016-12-07-15-20-21](https://cloud.githubusercontent.com/assets/22725857/20959429/7aa445f0-bc8d-11e6-90db-d6179979df73.png)
+![screenshot_2016-12-07-15-20-27](https://cloud.githubusercontent.com/assets/22725857/20959600/5fcfe5da-bc8e-11e6-90a0-366fc49b3f24.png)
+![screenshot_2016-12-07-15-20-31](https://cloud.githubusercontent.com/assets/22725857/20959719/0f661c80-bc8f-11e6-9e68-edeecf6bad2a.png)
+![screenshot_2016-12-07-15-20-35](https://cloud.githubusercontent.com/assets/22725857/20959720/0f70c9e6-bc8f-11e6-96dd-cd5a066b6636.png)
+![screenshot_2016-12-07-15-20-40](https://cloud.githubusercontent.com/assets/22725857/20959721/0f7bbbee-bc8f-11e6-9e61-cbf007b72e68.png)
+![screenshot_2016-12-07-15-20-58](https://cloud.githubusercontent.com/assets/22725857/20959722/0f88242e-bc8f-11e6-8baa-6e201859157f.png)
+![screenshot_2016-12-07-15-21-05](https://cloud.githubusercontent.com/assets/22725857/20959723/0f922302-bc8f-11e6-99de-3e0cc08e1b69.png)
+![screenshot_2016-12-07-15-21-11](https://cloud.githubusercontent.com/assets/22725857/20959726/10def30c-bc8f-11e6-9a38-310e087d4ee0.png)
+![screenshot_2016-12-07-15-21-20](https://cloud.githubusercontent.com/assets/22725857/20959724/0fa4a45a-bc8f-11e6-8924-cf147cfbdca9.png)
 
 
 # Link APK
